@@ -1,0 +1,33 @@
+
+         10,521.65 msec task-clock                       #    0.999 CPUs utilized             
+               134      context-switches                 #   12.736 /sec                      
+                58      cpu-migrations                   #    5.512 /sec                      
+            92,871      page-faults                      #    8.827 K/sec                     
+    47,344,741,962      cycles                           #    4.500 GHz                       
+     3,197,109,848      stalled-cycles-frontend          #    6.75% frontend cycles idle      
+    57,954,048,176      instructions                     #    1.22  insn per cycle            
+                                                  #    0.06  stalled cycles per insn   
+    10,435,254,460      branches                         #  991.789 M/sec                     
+       279,823,041      branch-misses                    #    2.68% of all branches           
+
+      10.527074266 seconds time elapsed
+
+      10.308632000 seconds user
+       0.213888000 seconds sys
+
+----------------------------------------------------------------------------------------------------- sse
+         11,201.96 msec task-clock                       #    0.999 CPUs utilized             
+               272      context-switches                 #   24.281 /sec                      
+               190      cpu-migrations                   #   16.961 /sec                      
+            92,870      page-faults                      #    8.291 K/sec                     
+    49,894,985,972      cycles                           #    4.454 GHz                       
+     3,828,607,738      stalled-cycles-frontend          #    7.67% frontend cycles idle      
+    53,496,354,441      instructions                     #    1.07  insn per cycle            
+                                                  #    0.07  stalled cycles per insn   
+    10,325,129,537      branches                         #  921.725 M/sec                     
+       277,890,109      branch-misses                    #    2.69% of all branches           
+
+      11.208236754 seconds time elapsed
+
+      10.952348000 seconds user
+       0.250030000 seconds sys
